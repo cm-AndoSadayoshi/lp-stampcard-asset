@@ -398,35 +398,6 @@ h6 {
     margin-bottom: 30px;
 }
 
-.feature-list {
-    margin-top: 40px;
-    background: var(--surface-color);
-    padding: 40px;
-    border-radius: 24px;
-    text-align: left;
-}
-
-.feature-list ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.feature-list li {
-    padding-left: 24px;
-    position: relative;
-}
-
-.feature-list li::before {
-    content: '•';
-    color: var(--accent-primary);
-    position: absolute;
-    left: 0;
-    font-weight: 700;
-}
-
 .new-feature {
     color: var(--accent-secondary);
 }
