@@ -565,3 +565,45 @@ h6 {
     font-size: 1rem;
     line-height: 1.8;
 }
+
+/* Synergy Section */
+.synergy-section {
+    margin-top: 60px;
+    text-align: left;
+}
+
+.synergy-title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+.synergy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.synergy-card {
+    background: var(--surface-color);
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid var(--border-color);
+}
+
+.synergy-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+    color: var(--accent-primary);
+}
+
+.synergy-card ul {
+    margin: 16px 0;
+    padding-left: 20px;
+}
+
+.synergy-card li {
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+}
